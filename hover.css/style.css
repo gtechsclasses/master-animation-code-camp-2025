@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.nav{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    justify-content: center;
+}
+
+.nav h5{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+
+.hvr-bounce-to-right::before, .hvr-bounce-to-right::after{
+    background-color: red;
+}
+
+
+.hvr-bounce-to-bottom::before, .hvr-bounce-to-bottom::after{
+    background-color: chocolate;
+}
+
+.hvr-bounce-to-bottom:hover, .hvr-bounce-to-bottom:focus, .hvr-bounce-to-bottom:active{
+    color: blue;
+}
+
+.hvr-underline-from-center::before{
+    background-color: black;
+}
