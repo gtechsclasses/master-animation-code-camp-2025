@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    padding: 50px;
+}
+
+.box{
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.box1{
+    background-color: teal;
+}
+
+.box2{
+    background-color: tomato;
+    margin-top: 500px;
+}
+.box3{
+    background-color: chocolate;
+    margin-top: 500px;
+}
+.box4{
+    background-color: bisque;
+    margin-top: 500px;
+}

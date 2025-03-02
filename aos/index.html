@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AOS - Animate on scroll</title>
+    <!-- aos link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="box box1" data-aos="fade-up"></div>
+    <div class="box box2" data-aos="fade-up"></div>
+
+    <div class="box box3" data-aos="flip-left" data-aos-offset="500" data-aos-once="false"></div>
+
+    <div class="box box4" data-aos="zoom-in" data-aos-offset="300"></div>
+    <div class="box box4" data-aos="zoom-in" data-aos-offset="300"></div>
+
+
+    <!-- aos script -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
